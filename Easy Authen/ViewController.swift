@@ -39,8 +39,13 @@ class ViewController: UIViewController {
         checkSpace(user!, strPass: password!)
         
         
-        
     }   //loginButton
+    
+    
+    @IBAction func test(sender: AnyObject) {
+        
+    }
+    
     
     func checkSpace(strUser:String,strPass:String) -> Void {
         if ((strUser.isEmpty) || (strPass.isEmpty)) {
