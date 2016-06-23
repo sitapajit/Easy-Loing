@@ -46,17 +46,31 @@ class ViewController: UIViewController {
         if ((strUser.isEmpty) || (strPass.isEmpty)) {
             print("Have Space")
             
-            //Alert Dialog
-            let myAlert = UIAlertController(title: "มีช่องว่าง",message: "กรุณากรอกทุกช่องค่ะ",preferredStyle: UIAlertControllerStyle.Alert)
-            myAlert.addAction(UIAlertAction(title: "OK",style: UIAlertActionStyle.Default,handler: nil))
-            
-            self.presentViewController(myAlert, animated: true, completion: nil)
+            myAlertDialog("มีช่องว่าง", strMessage: "กรุณากรอกทุกช่องค่ะ")
             
             
+        }else{
+            var trueUser = ["test1","test2","test3"]
+            var truePass = ["123","456","789"]
             
             
-        }
-    }   // funcHaveSpace
+            
+        
+        }   //if
+        
+        
+    }   // checkSpace
+    
+    func myAlertDialog(strTitle:String,strMessage:String) -> Void {
+        //Alert Dialog
+        let myAlert = UIAlertController(title: strTitle,message: strMessage,preferredStyle: UIAlertControllerStyle.Alert)
+        myAlert.addAction(UIAlertAction(title: "OK",style: UIAlertActionStyle.Default,handler: nil))
+        
+        self.presentViewController(myAlert, animated: true, completion: nil)
+
+    }
+    
+    
 
 }   //  Class
 
