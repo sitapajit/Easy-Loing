@@ -14,6 +14,7 @@
 		7CD56AF21D1BB9B200363B91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CD56AF01D1BB9B200363B91 /* LaunchScreen.storyboard */; };
 		7CD56AFD1D1BB9B200363B91 /* Easy_AuthenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD56AFC1D1BB9B200363B91 /* Easy_AuthenTests.swift */; };
 		7CD56B081D1BB9B200363B91 /* Easy_AuthenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD56B071D1BB9B200363B91 /* Easy_AuthenUITests.swift */; };
+		7CD56B161D1BD29800363B91 /* ServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD56B151D1BD29800363B91 /* ServiceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7CD56B031D1BB9B200363B91 /* Easy AuthenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy AuthenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CD56B071D1BB9B200363B91 /* Easy_AuthenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_AuthenUITests.swift; sourceTree = "<group>"; };
 		7CD56B091D1BB9B200363B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CD56B151D1BD29800363B91 /* ServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				7CD56AE71D1BB9B200363B91 /* AppDelegate.swift */,
+				7CD56B151D1BD29800363B91 /* ServiceViewController.swift */,
 				7CD56AE91D1BB9B200363B91 /* ViewController.swift */,
 				7CD56AEB1D1BB9B200363B91 /* Main.storyboard */,
 				7CD56AEE1D1BB9B200363B91 /* Assets.xcassets */,
@@ -258,6 +261,7 @@
 			files = (
 				7CD56AEA1D1BB9B200363B91 /* ViewController.swift in Sources */,
 				7CD56AE81D1BB9B200363B91 /* AppDelegate.swift in Sources */,
+				7CD56B161D1BD29800363B91 /* ServiceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
